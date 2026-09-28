@@ -1,0 +1,17 @@
+ESTADOS:
+q0,q1
+
+ALFABETO:
+a,b
+
+INICIAL:
+q0
+
+FINAIS:
+q1
+
+TRANSICOES:
+q0,c->q1
+
+PALAVRAS:
+a

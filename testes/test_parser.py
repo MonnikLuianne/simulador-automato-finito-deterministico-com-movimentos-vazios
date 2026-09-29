@@ -1,5 +1,12 @@
-from parser import carregar_automato, validar_automato
 
+#testa se o parser.py esta funcionando
+#codigo de controle do integrante 1
+#testes feitos: se o parser consegue ler json ou txt, se recomhece eps, se aceita 
+#multiplos destinos, se detecta estado inicial inexistente, se detecta simbolo de
+# transicao inexistente, se detecta estado destino inexistente, 
+# se detecta estado repetido, se detecta simbolo repetido, 
+# se impede de epsilon ficar no alfabeto, se detecta palavra com simbolo invalido
+from parser import carregar_automato, validar_automato
 
 def testar_json_valido():
     automato = carregar_automato("dados/exemplo.json")

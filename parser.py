@@ -1,3 +1,7 @@
+
+#le o arquivo de entrada em json ou txt e tranforma
+#na estrutura que o restante do programa consegue usar no simulador.py 
+#e validar se o automato está consistente antes de ser utilizao pelo simulador.py
 import json
 
 from automato import EPSILON, criar_automato

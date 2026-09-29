@@ -1,5 +1,5 @@
 #estrutura do afn-e
-EPSILON = "eps"
+EPSILON = "eps" #constante para representar movimentos vazios 
 
 
 def criar_automato(estados, alfabeto, inicial, finais, transicoes, palavras):

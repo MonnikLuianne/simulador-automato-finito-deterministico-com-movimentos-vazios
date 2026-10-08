@@ -26,24 +26,24 @@ simulador-automato-finito-deterministico-com-movimentos-vazios/
     └── test_parser.py
 ```
 ## Descrição dos arquivos
-- automato.py: define a estrutura do AFN-ε e a convenção para o símbolo epsilon.
-- parser.py: realiza a leitura dos arquivos TXT e JSON e valida a definição do autômato.
-- simulador.py: realiza o cálculo do fecho-epsilon, movimentação entre estados e simulação das palavras.
-- main.py: integra o parser e o simulador e apresenta os resultados.
-- dados/: contém exemplos válidos e inválidos de entrada.
-- testes/: contém os testes do parser.
+    - automato.py: define a estrutura do AFN-ε e a convenção para o símbolo epsilon.
+    - parser.py: realiza a leitura dos arquivos TXT e JSON e valida a definição do autômato.
+    - simulador.py: realiza o cálculo do fecho-epsilon, movimentação entre estados e simulação das palavras.
+    - main.py: integra o parser e o simulador e apresenta os resultados.
+    - dados/: contém exemplos válidos e inválidos de entrada.
+    - testes/: contém os testes do parser.
 ## Requisitos
-Python 3
-Nenhuma biblioteca externa é necessária.
+    Python 3
+    Nenhuma biblioteca externa é necessária.
 ## Execução
 
-1. Abra o terminal na pasta do projeto e execute: python main.py
-
-2. O programa solicitará o caminho do arquivo do autômato.
-    Exemplo: dados/exemplo.json ou: dados/exemplo.txt
-   
-4. Formato JSON
-        O arquivo JSON deve possuir os seguintes campos:
+    1. Abra o terminal na pasta do projeto e execute: python main.py
+    
+    2. O programa solicitará o caminho do arquivo do autômato.
+        Exemplo: dados/exemplo.json ou: dados/exemplo.txt
+       
+    4. Formato JSON
+            O arquivo JSON deve possuir os seguintes campos:
     
         {
             "estados": ["q0", "q1", "q2"],

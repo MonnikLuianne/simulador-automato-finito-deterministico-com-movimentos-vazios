@@ -37,7 +37,7 @@ Python 3
 Nenhuma biblioteca externa é necessária.
 ## Execução
 
-1. Abra o terminal na pasta do projeto e execute: python main.py
+# 1. Abra o terminal na pasta do projeto e execute: python main.py
 
 2. O programa solicitará o caminho do arquivo do autômato.
 

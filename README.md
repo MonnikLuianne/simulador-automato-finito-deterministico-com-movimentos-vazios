@@ -24,7 +24,7 @@ simulador-automato-finito-deterministico-com-movimentos-vazios/
 │
 └── testes/
     └── test_parser.py
-
+```
 ## Descrição dos arquivos
 - automato.py: define a estrutura do AFN-ε e a convenção para o símbolo epsilon.
 - parser.py: realiza a leitura dos arquivos TXT e JSON e valida a definição do autômato.

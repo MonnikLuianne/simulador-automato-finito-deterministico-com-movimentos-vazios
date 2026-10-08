@@ -115,4 +115,4 @@ Nenhuma biblioteca externa é necessária.
     estados repetidos;
     símbolos repetidos;
     epsilon no alfabeto;
-palavra contendo símbolo inválido.
+    palavra contendo símbolo inválido.

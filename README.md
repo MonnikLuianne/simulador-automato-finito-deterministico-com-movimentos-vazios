@@ -12,7 +12,7 @@ O programa permite carregar um autômato a partir de arquivos TXT ou JSON, valid
 
 - Luidge de Sousa Carvalho
 - Monnik Luianne Oliveira Nascimento Veloso Barbosa
-- Samuel Furtado Fortes
+- Samuel Lucas Alves Matos
 
 ## Estrutura do projeto
 
